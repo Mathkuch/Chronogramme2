@@ -64,14 +64,11 @@
             <Toolkit:LineSeries x:Name="Seuil1"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
             <Toolkit:LineSeries x:Name="Fp2line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
             <Toolkit:LineSeries x:Name="C4line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}" Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
-            <Toolkit:LineSeries x:Name="F8line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
-            <Toolkit:LineSeries x:Name="T6line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}" Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
+            <Toolkit:LineSeries x:Name="T4line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}" Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
             <Toolkit:LineSeries x:Name="O2line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}" Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
-            <Toolkit:LineSeries x:Name="Czline"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
             <Toolkit:LineSeries x:Name="Fp1line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
             <Toolkit:LineSeries x:Name="C3line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}" Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
-            <Toolkit:LineSeries x:Name="F7line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
-            <Toolkit:LineSeries x:Name="T5line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
+            <Toolkit:LineSeries x:Name="T3line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
             <Toolkit:LineSeries x:Name="O1line"  DependentValuePath="Puissance_spectrale" IndependentValuePath="PxNum" ItemsSource="{Binding}"  Grid.IsSharedSizeScope="True" DataPointStyle="{StaticResource InvisibleDataPoint}"/>
         </Toolkit:Chart>
         <TextBox x:Name="nbint" Height="30" Canvas.Left="153" TextWrapping="Wrap" Text="1" Canvas.Top="397" Width="30"/>
